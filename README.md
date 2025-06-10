@@ -48,3 +48,23 @@ aqui fizemos a inscrição dos comodos da casa nos quais ligamos os pinos dos le
 
 ### 9. Quer Contribuir?
 Para contribuir com um projeto de código aberto, escolha uma tarefa, leia as regras, desenvolva a solução em uma nova branch, submeta-a como um Pull Request e, por fim, colabore com o feedback recebido.
+
+![Imagem do WhatsApp de 2025-06-10 à(s) 19 30 37_dd062cac](https://github.com/user-attachments/assets/891d8ca2-1ac7-4e56-ad0a-04c881b02b86)
+
+![Imagem do WhatsApp de 2025-06-10 à(s) 19 30 37_713bc59e](https://github.com/user-attachments/assets/7a507e69-e1de-4df5-82cc-c1bd20d78b7a)
+
+![Imagem do WhatsApp de 2025-06-10 à(s) 19 30 38_fd667b15](https://github.com/user-attachments/assets/322e38c1-9491-4346-9650-36bcea8bbe6a)
+
+![Imagem do WhatsApp de 2025-06-10 à(s) 19 30 38_881b1c41](https://github.com/user-attachments/assets/656b43ed-3966-41c2-aba8-2d9e73eb8d0f)
+
+![Imagem do WhatsApp de 2025-06-10 à(s) 19 30 38_3dbb4791](https://github.com/user-attachments/assets/5504853c-4def-4076-ba9d-722f5286b05c)
+
+![Imagem do WhatsApp de 2025-06-10 à(s) 19 30 38_a92b4605](https://github.com/user-attachments/assets/8b8b9647-f93e-42b0-ab81-29384b588c94)
+
+![Imagem do WhatsApp de 2025-06-10 à(s) 19 30 39_21636311](https://github.com/user-attachments/assets/53f9c421-8ca6-4060-84b1-1d3902ece750)
+
+
+
+
+
+
