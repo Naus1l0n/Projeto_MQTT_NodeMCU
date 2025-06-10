@@ -1,1 +1,50 @@
 # Projeto_MQTT_NodeMCU
+
+ 1. Visão Geral
+Ese é um projeto onde desenvolvemos um projeto de "automação" para a casa utilizando o nodeMCU, PlatformIO e o arduino
+
+
+### 2. Estrutura de Pastas
+Local onde ira criar o projeto no PlatformIO dentro do vscode onde ira ter em sua base as seguintes pastas:
+.pio - arquivos do nodeMCU
+.vscode - arquivos do platformIO
+include - arquivo README da pasta src
+lib - arquivo README do seu projeto do platformIO
+src - onde esta localizado seu codigo main.cpp
+test - diretório destinado ao PlatformIO Test Runner e aos testes de projeto.
+
+
+### 3. Pré-requisitos de Hardware
+Internet
+Arduino
+ESP32
+VScode com todas as configurações instaladas
+
+
+### 4. Configurações
+instalando os drivers do node mcu, depois ja com a extensão do platformIO instalada no visual code, criamos um projeto com a board nodeMCU. Apos isso instalamos o Mosquitto e configuramos o arquivo mosquito.conf. Após isso liberamos a porta 1883 TCP. Depois o instalamos o MQTT e nele no arquivo main.cpp colocamos a dependencia dele PubSubClient
+
+### 5. Codigo Fonte
+No inicio do codigo, no arquivo maic.cpp, fizemos o login doo ESP8266 no wifi colocando a rede e a senha e depois o server do MQTT com sua porta liberada 1883.
+Apos isso fizemos a inscrição dos topicos onde a função callback é ligada, ela vai ler a mensagem, verificar em qual topico chegou e vai agir de acordo com o que mandarmos, por exemplo ligar e desligar ON e OFF, e depois disso o quando o led e acionado publica a mensagem do status do led o que corresponde a sua mudança.
+
+### 6. Compilando e Carregando seu Projeto
+Dentro do Vs code com o PlatformIO instalado colocamos o login de wifi e o ip do MQTT no local ...src/main.cpp
+Com o NodeMCU ligado via usb no computador, no vs code começamos a compilar e carregar o firmware na placa
+
+### 7. Testes e Exemplos
+Fizemos toda a parte da ligação e compilação do projeto, no MQTT colocamos a onde queriamos ligar o led por expemplo o led do quarto1 - casa/quarto1/led/status apos isso na parte inferior digitamos o ON e fizemos o publish
+
+
+### 8. Estrutura de Tópicos
+
+  "casa/sala/led/status",
+  "casa/cozinha/led/status",
+  "casa/quarto1/led/status",
+  "casa/quarto2/led/status",
+  "casa/varanda/led/status"
+
+aqui fizemos a inscrição dos comodos da casa nos quais ligamos os pinos dos led de acordo com a sua ordem 
+
+### 9. Quer Contribuir?
+Para contribuir com um projeto de código aberto, escolha uma tarefa, leia as regras, desenvolva a solução em uma nova branch, submeta-a como um Pull Request e, por fim, colabore com o feedback recebido.
